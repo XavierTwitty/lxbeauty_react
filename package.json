@@ -1,0 +1,29 @@
+{
+  "name": "lxbeauty_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XavierTwitty/lxbeauty_react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XavierTwitty/lxbeauty_react/issues"
+  },
+  "homepage": "https://github.com/XavierTwitty/lxbeauty_react#readme",
+  "dependencies": {
+    "gitignore": "^0.7.0",
+    "parcel-bundler": "^1.12.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.1"
+  }
+}
