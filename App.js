@@ -6,6 +6,21 @@ const App = () => {
 return (
 <div classname="App">
     <h1>hello world</h1>
+
+    <ul>
+        <li>
+            <Link to="/"> Home </Link>
+        </li>
+        <li>
+            <Link to="/menu"> Menu </Link>
+        </li>
+        <li>
+            <Link> About </Link>
+        </li>
+        <li>
+            <Link> Contact </Link>
+        </li>
+    </ul>
                                                                                                                                                                                                                                                                                   
 </div>
 )
