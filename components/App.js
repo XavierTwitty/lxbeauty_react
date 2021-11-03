@@ -10,25 +10,20 @@ import Menu from "./menu"
 function App () {
 
 return (
-<div classname="App">
+<div className="App">
     <h1>hello world</h1>
 
-    <ul>
-        <li>
+    <nav>
+    
             <Link to="/"> Home </Link>
-        </li>
-        <li>
             <Link to="/menu"> Menu </Link>
-        </li>
-        <li>
             <Link to="/about"> About </Link>
-        </li>
-        <li>
             <Link to="/contact"> Contact </Link>
-        </li>
-    </ul>
+
+    </nav>
+
 <Switch>
-    <Route path="/">
+    <Route exact path="/">
         <Home/>
     </Route>
 
