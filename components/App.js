@@ -12,6 +12,7 @@ function App () {
 return (
 <div className="App">
 
+    <h1> LX BEAUTY </h1>
     <nav>
     
             <Link to="/"> Home </Link>
