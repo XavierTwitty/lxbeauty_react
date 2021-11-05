@@ -11,8 +11,8 @@ function App () {
 
 return (
 <div className="App">
-    <h1>hello world</h1>
 
+    <h1> LX BEAUTY </h1>
     <nav>
     
             <Link to="/"> Home </Link>
