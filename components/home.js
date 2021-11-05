@@ -29,18 +29,18 @@ function home () {
 
       <section id="menu">
         <h3>Menu</h3>
-
-        <div className="sample-menu">
+        <button>see full menu</button>
+        <div className="sample-menuCard">
         Service : Volume Full set <br/>
         Hours: 3 hours <br/>
         Price : $170  <br/>
         </div>
-        <div className="sample-menu">
+        <div className="sample-menuCard">
         Service : Volume Full set <br/>
         Hours: 3 hours <br/>
         Price : $170  <br/>
         </div>
-        <div className="sample-menu">
+        <div className="sample-menuCard">
         Service : Volume Full set <br/>
         Hours: 3 hours <br/>
         Price : $170  <br/>
