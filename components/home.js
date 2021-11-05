@@ -27,6 +27,26 @@ function home () {
 
       </section>
 
+      <section id="menu">
+        <h3>Menu</h3>
+
+        <div className="sample-menu">
+        Service : Volume Full set <br/>
+        Hours: 3 hours <br/>
+        Price : $170  <br/>
+        </div>
+        <div className="sample-menu">
+        Service : Volume Full set <br/>
+        Hours: 3 hours <br/>
+        Price : $170  <br/>
+        </div>
+        <div className="sample-menu">
+        Service : Volume Full set <br/>
+        Hours: 3 hours <br/>
+        Price : $170  <br/>
+        </div>
+      </section>
+
       <section id="bottom">
         <footer>
         <div className="left">
@@ -37,6 +57,21 @@ function home () {
             Charlotte , North Carolina <br/> 
             28227
         </address>
+        </div>
+        <div className="right">
+            <h2> Hours:</h2>
+
+            <p>
+                Monday: closed <br/>
+                Tuesday: 11am - 7pm <br/>
+                Monday: 11am - 7pm  <br/>
+                Monday: 11am - 7pm <br/>
+                Monday: 11am - 7pm  <br/>
+                Monday: 11am - 7pm  <br/>
+                Monday: closed <br/>
+                
+            </p>
+        
         </div>
         </footer>
       </section>
