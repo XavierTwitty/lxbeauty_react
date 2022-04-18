@@ -4,7 +4,7 @@ This project have the same purpose are LXBEAUTY but made with with React. To mak
   -Javascipt 
   -HTML
   -CSS
-#I nstallation 
+# Installation 
   - Node-modules  
   - React
   - React-router-dom  
