@@ -1,5 +1,4 @@
-import React from "react"
-
+import React , { useState }from "react"
 import {Route, Link , Switch } from "react-router-dom"
 
 import Home from "./home"
@@ -11,16 +10,6 @@ function App () {
 
 return (
 <div className="App">
-
-    <h1> LX BEAUTY </h1>
-    <nav>
-    
-            <Link to="/"> Home </Link>
-            <Link to="/menu"> Menu </Link>
-            <Link to="/about"> About </Link>
-            <Link to="/contact"> Contact </Link>
-
-    </nav>
 
 <Switch>
     <Route exact path="/">
