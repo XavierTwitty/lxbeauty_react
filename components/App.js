@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Route, Link, Switch } from "react-router-dom";
 import data from "../data";
 
-import { serviceContext } from "../contexts/serviceContext";
+import { ServiceContext } from "../contexts/serviceContext";
 
 // move these imports to nav component
 import Home from "./home";
@@ -16,15 +16,15 @@ function App() {
 
   return (
     <div className="App">
-      <serviceContext.Provider value={{ services }}>
-        <h1> LX BEAUTY </h1>
+      <ServiceContext.Provider value={{ services }}>
+        {/* <h1> LX BEAUTY </h1>
 
         <nav>
           <Link to="/"> Home </Link>
           <Link to="/menu"> Menu </Link>
           <Link to="/about"> About </Link>
           <Link to="/contact"> Contact </Link>
-        </nav>
+        </nav> */}
         <Switch>
           <Route exact path="/">
             <Home />
@@ -41,7 +41,7 @@ function App() {
             <Contact />
           </Route>
         </Switch>
-      </serviceContext.Provider>
+      </ServiceContext.Provider>
     </div>
   );
 }

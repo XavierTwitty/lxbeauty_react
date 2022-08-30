@@ -1,9 +1,11 @@
 import React from "react"
 
-import Home from "./home"
-import About from "./about"
-import Contact from "./contact"
-import Menu from "./menu"  
+// import Home from "./home"
+// import About from "./about"
+// import Contact from "./contact"
+// import Menu from "./menu"  
+
+import Services from "./Services"
 
 function home () {
     return (
@@ -12,7 +14,7 @@ function home () {
             <h1> Home page </h1>
 
            
-        <section id="top">
+        {/* <section id="top">
         <div className="mySlides">
         <img/>
         </div>
@@ -53,7 +55,7 @@ function home () {
         Hours: 3 hours <br/>
         Price : $170  <br/>
         </div>
-      </section>
+      </section> */}
 
       <section id="bottom">
         <footer>
