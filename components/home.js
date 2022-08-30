@@ -1,20 +1,17 @@
 import React from "react"
 
+import Home from "./home"
+import About from "./about"
+import Contact from "./contact"
+import Menu from "./menu"  
+
 function home () {
     return (
         
         <div  className="homepage">
             <h1> Home page </h1>
 
-            <h1> LX BEAUTY </h1>
-    <nav>
-    
-            <Link to="/"> Home </Link>
-            <Link to="/menu"> Menu </Link>
-            <Link to="/about"> About </Link>
-            <Link to="/contact"> Contact </Link>
-
-    </nav>
+           
         <section id="top">
         <div className="mySlides">
         <img/>

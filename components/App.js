@@ -1,36 +1,49 @@
-import React , { useState }from "react"
-import {Route, Link , Switch } from "react-router-dom"
+import React, { useState } from "react";
+import { Route, Link, Switch } from "react-router-dom";
+import data from "../data";
 
-import Home from "./home"
-import About from "./about"
-import Contact from "./contact"
-import Menu from "./menu"  
+import { serviceContext } from "../contexts/serviceContext";
 
-function App () {
+// move these imports to nav component
+import Home from "./home";
+import About from "./about";
+import Contact from "./contact";
+import Menu from "./menu";
 
-return (
-<div className="App">
+// maka a nav component
+function App() {
+  const [services] = useState(data);
 
-<Switch>
-    <Route exact path="/">
-        <Home/>
-    </Route>
+  return (
+    <div className="App">
+      <serviceContext.Provider value={{ services }}>
+        <h1> LX BEAUTY </h1>
 
-    <Route path="/menu">
-        <Menu/>
-    </Route>
+        <nav>
+          <Link to="/"> Home </Link>
+          <Link to="/menu"> Menu </Link>
+          <Link to="/about"> About </Link>
+          <Link to="/contact"> Contact </Link>
+        </nav>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/menu">
+            <Menu />
+          </Route>
 
-    <Route path="/about">
-        <About/>
-    </Route>
+          <Route path="/about">
+            <About />
+          </Route>
 
-    <Route path="/contact">
-        <Contact/>
-    </Route>
-</Switch>                                                                                                                                                                                                                                                                               
-</div>
-)
+          <Route path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
+      </serviceContext.Provider>
+    </div>
+  );
 }
 
-
-export default App   
+export default App;
