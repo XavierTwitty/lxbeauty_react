@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Route } from "react-router-dom";
 
-import { ServiceContext } from "../contexts/serviceContext";
+import { ServiceContext } from "../contexts/ServiceContext";
 
 function home() {
   const { services } = useContext(ServiceContext);
@@ -15,7 +15,7 @@ function home() {
           {/* add a slideshow */}
         </div>
       </section>
-    {/* sample of the services before you go to service component */}
+      {/* sample of the services before you go to service component */}
 
       <section id="bottom">
         <footer>

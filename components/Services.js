@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 import Service from "./Service";
-import { ServiceContext } from "../contexts/serviceContext";
+import { ServiceContext } from "../contexts/ServiceContext";
 
 const Services = () => {
   const { services } = useContext(ServiceContext);
