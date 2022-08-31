@@ -8,7 +8,11 @@ import { ServiceContext } from "../contexts/serviceContext";
 import Home from "./home";
 import About from "./about";
 import Contact from "./contact";
-import Menu from "./menu";
+
+
+
+import Services from "../components/Services"
+import Navigation from "./Navigation";
 
 // maka a nav component
 function App() {
@@ -17,20 +21,16 @@ function App() {
   return (
     <div className="App">
       <ServiceContext.Provider value={{ services }}>
-        {/* <h1> LX BEAUTY </h1>
+         <h1> LX BEAUTY </h1>
+    
 
-        <nav>
-          <Link to="/"> Home </Link>
-          <Link to="/menu"> Menu </Link>
-          <Link to="/about"> About </Link>
-          <Link to="/contact"> Contact </Link>
-        </nav> */}
+        <Navigation />
         <Switch>
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/menu">
-            <Menu />
+          <Route path="/services">
+            <Services/>
           </Route>
 
           <Route path="/about">
