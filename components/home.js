@@ -1,10 +1,6 @@
 import React, { useContext } from "react";
-import { Route } from "react-router-dom";
-
-import { ServiceContext } from "../contexts/ServiceContext";
 
 function home() {
-  const { services } = useContext(ServiceContext);
   return (
     <div className="homepage">
       <h1> Home page </h1>

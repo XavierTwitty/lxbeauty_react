@@ -1,18 +1,14 @@
 import React, { useState } from "react";
-import { Route, Link, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import data from "../data";
 
-import { ServiceContext } from "../contexts/ServiceContext";
-
-// move these imports to nav component
 import Home from "./home";
 import About from "./about";
 import Contact from "./contact";
-
 import Services from "../components/Services";
 import Navigation from "./Navigation";
+import { ServiceContext } from "../contexts/ServiceContext";
 
-// maka a nav component
 function App() {
   const [services] = useState(data);
 
