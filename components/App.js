@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { Route, Switch } from "react-router-dom";
 import data from "../data";
 
-import Home from "./home";
-import About from "./about";
-import Contact from "./contact";
+import Home from "./Home";
+import About from "./About";
+// import Contact from "./contact";
 import Services from "../components/Services";
 import Navigation from "./Navigation";
 import { ServiceContext } from "../contexts/ServiceContext";
@@ -14,7 +14,6 @@ import { ServiceContext } from "../contexts/ServiceContext";
 // make a footer component for the whole app
 // on the taining page map state and make a form
 // features : social media icons and live IG posts
-//            slide show on homepage
 //            Our servies nav from https://www.loxuriousbeauty.com/book-online?category=all-services
 
 function App() {
@@ -38,10 +37,6 @@ function App() {
 
         <Route path="/about">
           <About />
-        </Route>
-
-        <Route path="/contact">
-          <Contact />
         </Route>
       </Switch>
     </div>
