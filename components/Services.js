@@ -1,14 +1,15 @@
 import React, { useContext } from "react";
-
-import Service from "./Service";
 import { ServiceContext } from "../contexts/ServiceContext";
 
+import Service from "./Service";
+
 const Services = () => {
-  const { services } = useContext(ServiceContext);
+  const services = useContext(ServiceContext);
+  console.log(services);
   return (
     <div className="service-container">
       {services.map((service) => {
-        <Service key={service.id} service={service} />;
+        return (<Service services={service} />)
       })}
     </div>
   );

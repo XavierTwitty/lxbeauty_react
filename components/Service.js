@@ -1,11 +1,14 @@
 import React from "react";
 
 const Service = (props) => {
+  const { id, title, hours, price } = props.services;
+
+  console.log(props);
   return (
-    <div className="service">
-      <h1 className="title">{props.service.title}</h1>
-      <p className="hours">{props.service.hours}</p>
-      <p className="price">${props.service.price}</p>
+    <div className="service" key={id}>
+      <h1 className="title">{title}</h1>
+      <p className="hours">{hours}</p>
+      <p className="price">{price}</p>
     </div>
   );
 };

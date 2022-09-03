@@ -10,31 +10,32 @@ import Navigation from "./Navigation";
 import { ServiceContext } from "../contexts/ServiceContext";
 
 function App() {
-  const [services] = useState(data);
+  const [services, setService] = useState(data);
 
   return (
     <div className="App">
-      <ServiceContext.Provider value={{ services }}>
-        <h1> LX BEAUTY </h1>
+      <h1> LX BEAUTY </h1>
 
-        <Navigation />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/services">
+      <Navigation />
+
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/services">
+          <ServiceContext.Provider value={services}>
             <Services />
-          </Route>
+          </ServiceContext.Provider>
+        </Route>
 
-          <Route path="/about">
-            <About />
-          </Route>
+        <Route path="/about">
+          <About />
+        </Route>
 
-          <Route path="/contact">
-            <Contact />
-          </Route>
-        </Switch>
-      </ServiceContext.Provider>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+      </Switch>
     </div>
   );
 }
