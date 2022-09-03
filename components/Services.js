@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <div className="service-container">
       {services.map((service) => {
-        return (<Service services={service} />)
+        return <Service services={service} />;
       })}
     </div>
   );

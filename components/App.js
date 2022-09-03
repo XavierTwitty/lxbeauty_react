@@ -9,6 +9,14 @@ import Services from "../components/Services";
 import Navigation from "./Navigation";
 import { ServiceContext } from "../contexts/ServiceContext";
 
+// plan:
+// take out the contact page and make training page
+// make a footer component for the whole app
+// on the taining page map state and make a form
+// features : social media icons and live IG posts
+//            slide show on homepage
+//            Our servies nav from https://www.loxuriousbeauty.com/book-online?category=all-services
+
 function App() {
   const [services, setService] = useState(data);
 
