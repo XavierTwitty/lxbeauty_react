@@ -8,6 +8,7 @@ import About from "./About";
 import Trainings from "./Trainings";
 import Services from "../components/Services";
 import Navigation from "./Navigation";
+import Footer from "./Footer";
 import { ServiceContext } from "../contexts/ServiceContext";
 import { TrainingContext } from "../contexts/trainingContext";
 
@@ -47,6 +48,8 @@ function App() {
           <About />
         </Route>
       </Switch>
+
+      <Footer />
     </div>
   );
 }
