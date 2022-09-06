@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import { Route, Switch } from "react-router-dom";
 import data from "../data";
+import trainingData from "../trainingData";
 
 import Home from "./Home";
 import About from "./About";
-// import Contact from "./contact";
+import Trainings from "./Trainings";
 import Services from "../components/Services";
 import Navigation from "./Navigation";
 import { ServiceContext } from "../contexts/ServiceContext";
+import { TrainingContext } from "../contexts/trainingContext";
 
 // plan:
 // take out the contact page and make training page
@@ -18,6 +20,7 @@ import { ServiceContext } from "../contexts/ServiceContext";
 
 function App() {
   const [services, setService] = useState(data);
+  const [trainings, setTrainings] = useState(trainingData);
 
   return (
     <div className="App">
@@ -33,6 +36,11 @@ function App() {
           <ServiceContext.Provider value={services}>
             <Services />
           </ServiceContext.Provider>
+        </Route>
+        <Route path="/trainings">
+          <TrainingContext.Provider value={trainings}>
+            <Trainings />
+          </TrainingContext.Provider>
         </Route>
 
         <Route path="/about">
