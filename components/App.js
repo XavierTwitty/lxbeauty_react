@@ -13,11 +13,8 @@ import { ServiceContext } from "../contexts/ServiceContext";
 import { TrainingContext } from "../contexts/trainingContext";
 
 // plan:
-// take out the contact page and make training page
-// make a footer component for the whole app
-// on the taining page map state and make a form
 // features : social media icons and live IG posts
-//            Our servies nav from https://www.loxuriousbeauty.com/book-online?category=all-services
+//            Our servies filter from https://www.loxuriousbeauty.com/book-online?category=all-services
 
 function App() {
   const [services, setService] = useState(data);
