@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Route, Switch } from "react-router-dom";
 import data from "../data";
 import trainingData from "../trainingData";
@@ -19,6 +19,27 @@ import { TrainingContext } from "../contexts/trainingContext";
 function App() {
   const [services, setService] = useState(data);
   const [trainings, setTrainings] = useState(trainingData);
+
+  // var slideIndex = 0;
+  // showSlides();
+
+  // function showSlides() {
+  //   var i;
+  //   var slides = document.getElementsByClassName("mySlides");
+  //   for (i = 0; i < slides.length; i++) {
+  //     slides[i].style.display = "none";
+  //   }
+  //   slideIndex++;
+  //   if (slideIndex > slides.length) {
+  //     slideIndex = 1;
+  //   }
+  //   slides[slideIndex - 1].style.display = "block";
+  //   setTimeout(showSlides, 5000); // Change image every 2 seconds
+
+  //   useEffect(() => {
+  //     showSlides();
+  //   }, []);
+  // }
 
   return (
     <div className="App">
