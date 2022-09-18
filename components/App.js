@@ -7,7 +7,7 @@ import Home from "./Home";
 import About from "./About";
 import Trainings from "./Trainings";
 import Services from "../components/Services";
-import Navigation from "./Navigation";
+import Header from "./Header";
 import Footer from "./Footer";
 import { ServiceContext } from "../contexts/ServiceContext";
 import { TrainingContext } from "../contexts/trainingContext";
@@ -22,26 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <div
-        style={{
-          display: "flex",
-        }}
-      >
-        <h1
-          style={{
-            width: "50%",
-            textAlign: "center",
-            fontFamily: "fantasy",
-            fontSize: "5rem",
-          }}
-        >
-          {" "}
-          LX BEAUTY{" "}
-        </h1>
-
-        <Navigation />
-      </div>
-
+      <Header />
       <Switch>
         <Route exact path="/">
           <Home />

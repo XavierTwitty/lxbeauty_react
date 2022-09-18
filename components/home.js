@@ -3,14 +3,8 @@ import React from "react";
 function home() {
   return (
     <div className="homepage">
-      <h2>
-        Lashes, brows &<br />
-        permanent make-up
-      </h2>
-
       <section id="top">
         <div class="sub_header">
-          <h3>Making beauty personal</h3>
           <div class="slideshow-container">
             <div class="mySlides fade">
               <img
@@ -37,6 +31,7 @@ function home() {
               />
             </div>
           </div>
+          <h3>Making beauty personal</h3>
         </div>
       </section>
       {/* sample of the services before you go to service component */}
