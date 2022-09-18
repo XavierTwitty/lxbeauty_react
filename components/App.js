@@ -22,9 +22,25 @@ function App() {
 
   return (
     <div className="App">
-      <h1> LX BEAUTY </h1>
+      <div
+        style={{
+          display: "flex",
+        }}
+      >
+        <h1
+          style={{
+            width: "50%",
+            textAlign: "center",
+            fontFamily: "fantasy",
+            fontSize: "5rem",
+          }}
+        >
+          {" "}
+          LX BEAUTY{" "}
+        </h1>
 
-      <Navigation />
+        <Navigation />
+      </div>
 
       <Switch>
         <Route exact path="/">

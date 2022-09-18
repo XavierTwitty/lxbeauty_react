@@ -3,7 +3,10 @@ import React from "react";
 function home() {
   return (
     <div className="homepage">
-      <h1> The Home of Beauty </h1>
+      <h2>
+        Lashes, brows &<br />
+        permanent make-up
+      </h2>
 
       <section id="top">
         <div class="sub_header">
