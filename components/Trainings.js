@@ -7,11 +7,16 @@ const Trainings = () => {
   const trainings = useContext(TrainingContext);
   console.log(trainings);
   return (
-    <div className="training-container">
+    <section
+      className="training-container"
+      style={{
+        border: "solid blue 2px",
+      }}
+    >
       {trainings.map((training) => {
         return <Training trainings={training} />;
       })}
-    </div>
+    </section>
   );
 };
 

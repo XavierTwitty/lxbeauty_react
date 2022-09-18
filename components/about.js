@@ -2,7 +2,12 @@ import React from "react";
 
 function about() {
   return (
-    <div>
+    <section
+      className="about"
+      style={{
+        border: "solid blue 2px",
+      }}
+    >
       <h1> About page </h1>
 
       <h2>Work Experience</h2>
@@ -36,7 +41,7 @@ function about() {
       </p>
 
       <h3> Social Media </h3>
-    </div>
+    </section>
   );
 }
 
