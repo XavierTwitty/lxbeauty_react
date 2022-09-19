@@ -1,17 +1,53 @@
 import React from "react";
 
 const Training = (props) => {
-  const { id, title, p1, p2, p3, hours, price } = props.trainings;
+  const { id, title, p1, p2, p3, hours, price, license } = props.trainings;
 
   console.log(props);
   return (
-    <div className="training" key={id}>
-      <h1 className="training-title">{title}</h1>
+    <div
+      className="training"
+      key={id}
+      style={{
+        border: "solid red 1px",
+        width: "30%",
+        textAlign: "center",
+        margin: "2%",
+        justifyContent: "center",
+        marginLeft: "8%",
+        marginRight: "8%",
+      }}
+    >
+      <h2
+        className="training-title"
+        style={{
+          fontSize: "4.5rem",
+        }}
+      >
+        {title}
+      </h2>
       <p className="p1">{p1}</p>
       <p className="p2">{p2}</p>
       <p className="p3">{p3}</p>
-      <p className="training-hours">{hours}</p>
-      <p className="training-price">{price}</p>
+      <p
+        className="training-hours"
+        style={{
+          fontSize: "2.3rem",
+          fontWeight: "bold",
+        }}
+      >
+        {hours}
+      </p>
+      <p
+        className="training-price"
+        style={{
+          fontSize: "3.5rem",
+          fontWeight: "bold",
+        }}
+      >
+        {price}
+      </p>
+      <p classname="license">{license}</p>
     </div>
   );
 };

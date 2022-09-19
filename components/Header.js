@@ -7,26 +7,37 @@ function Header() {
       className="header-container"
       style={{
         display: "flex",
-        border: "solid red 2px",
         width: "100%",
-        height: "25rem",
+        height: "20rem",
+        marginTop: "3%",
       }}
     >
-      <h1
+      <div
+        className="titles"
         style={{
           width: "50%",
           textAlign: "center",
-          fontFamily: "fantasy",
-          fontSize: "5rem",
         }}
       >
-        {" "}
-        LX BEAUTY{" "}
-      </h1>
-      <h2>
-        Lashes, brows &<br />
-        permanent make-up
-      </h2>
+        <h1
+          style={{
+            textAlign: "center",
+            fontFamily: "fantasy",
+            fontSize: "5rem",
+          }}
+        >
+          {" "}
+          Loxurious Beauty{" "}
+        </h1>
+        <h2
+          style={{
+            fontFamily: "fantasy",
+          }}
+        >
+          Lashes, brows &<br />
+          permanent make-up
+        </h2>
+      </div>
       <Navigation />
     </div>
   );

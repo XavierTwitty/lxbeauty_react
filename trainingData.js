@@ -7,6 +7,8 @@ export default [
     p3: "Comes with a fully loaded kit.",
     hours: "5 hr",
     price: "$850",
+    license:
+      "*Licensed estheticians or cosmetologist can legally accept a certification by me in the state of North Carolina. Non- licensed students wishing to take this course will receive a course completion certificate",
   },
   {
     id: 2,
@@ -16,5 +18,7 @@ export default [
     p3: "Class will come with a fully loaded kit.",
     hours: "2 Days",
     price: "$1000",
+    license:
+      "*Licensed estheticians or cosmetologist can legally accept a certification by me in the state of North Carolina. Non- licensed students wishing to take this course will receive a course completion certificate",
   },
 ];

@@ -33,3 +33,11 @@ section {
   background-color: white;
   color: pink;
 }
+
+.training-header h2 {
+  width: 50%;
+}
+
+.footer h3 {
+  margin-bottom: 7%;
+}
