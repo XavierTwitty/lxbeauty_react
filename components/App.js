@@ -16,6 +16,7 @@ import { TrainingContext } from "../contexts/trainingContext";
 // features : social media icons and live IG posts
 //            Our servies filter from https://www.loxuriousbeauty.com/book-online?category=all-services
 //            Animations
+//            Booking component
 
 function App() {
   const [services, setService] = useState(data);

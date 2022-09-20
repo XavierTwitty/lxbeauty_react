@@ -130,11 +130,15 @@ function about() {
           style={{
             backgroundColor: "pink",
             width: "100%",
-            height: "100vh",
+            height: "120vh",
             textAlign: "center",
             display: "flex",
+            justifyContent: "center",
             flexDirection: "column",
             alignItems: "center",
+            marginTop: "5%",
+            paddingTop: "15%",
+            paddingBottom: "15%",
           }}
         >
           <h2

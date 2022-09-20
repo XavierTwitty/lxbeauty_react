@@ -13,10 +13,11 @@ const Trainings = () => {
         style={{
           backgroundColor: "pink",
           width: "100%",
-          height: "26rem",
-          textAlign: "center",
+          height: "36rem",
+          textAlign: "left",
           display: "flex",
           flexDirection: "column",
+          justifyContent: "center",
           alignItems: "center",
         }}
       >
@@ -24,7 +25,15 @@ const Trainings = () => {
         <h2> Classic Lash</h2>
         <h2>
           {" "}
-          Extension Classes <span>with Lauren Isenberger</span>
+          Extension Classes{" "}
+          <span
+            style={{
+              fontFamily: "cursive",
+              fontSize: "3rem",
+            }}
+          >
+            with Lauren Isenberger
+          </span>
         </h2>
       </div>
       <section

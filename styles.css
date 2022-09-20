@@ -37,6 +37,15 @@ section {
 .training-header h2 {
   width: 50%;
 }
+.training-header h2 {
+  font-size: 6rem;
+  width: 70%;
+  margin-left: 12%;
+}
+
+.training p {
+  font-size: 2rem;
+}
 
 .about-CT p {
   width: 50%;

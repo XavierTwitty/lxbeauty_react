@@ -10,7 +10,7 @@ const Training = (props) => {
       key={id}
       style={{
         border: "solid red 1px",
-        width: "30%",
+        width: "40%",
         textAlign: "center",
         margin: "2%",
         justifyContent: "center",
@@ -21,7 +21,7 @@ const Training = (props) => {
       <h2
         className="training-title"
         style={{
-          fontSize: "4.5rem",
+          fontSize: "6rem",
         }}
       >
         {title}
@@ -41,7 +41,7 @@ const Training = (props) => {
       <p
         className="training-price"
         style={{
-          fontSize: "3.5rem",
+          fontSize: "4rem",
           fontWeight: "bold",
         }}
       >

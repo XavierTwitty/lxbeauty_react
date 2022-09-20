@@ -8,7 +8,9 @@ const Footer = () => {
         display: "flex",
         justifyContent: "center",
         width: "100%",
-        height: "30rem",
+        height: "40rem",
+        fontSize: "2.3rem",
+        paddingTop: "3%",
       }}
     >
       <div
