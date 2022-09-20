@@ -20,7 +20,7 @@ body {
 }
 
 section {
-  margin: 5% 0;
+  margin: 3% 0;
 }
 /* Header Section Styles*/
 
@@ -35,6 +35,10 @@ section {
 }
 
 .training-header h2 {
+  width: 50%;
+}
+
+.about-CT p {
   width: 50%;
 }
 

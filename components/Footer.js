@@ -38,7 +38,7 @@ const Footer = () => {
         >
           <p
             style={{
-              width: "24%",
+              width: "30%",
             }}
           >
             {" "}
