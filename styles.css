@@ -37,11 +37,11 @@ a {
   align-items: center;
 }
 
-.mySlides {
-  display: none;
-}
+/* .mySlides {
+  visibility: hidden;
+} */
 
-.fade {
+/* .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -64,4 +64,4 @@ a {
   to {
     opacity: 1;
   }
-}
+} */
