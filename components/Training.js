@@ -2,8 +2,8 @@ import React from "react";
 
 const Training = (props) => {
   const { id, title, p1, p2, p3, hours, price, license } = props.trainings;
-
   console.log(props);
+
   return (
     <div
       className="training"

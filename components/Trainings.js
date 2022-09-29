@@ -1,11 +1,23 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { TrainingContext } from "../contexts/trainingContext";
-
+import Form from "./Form";
+import Trainee from "./Trainee";
 import Training from "./Training";
 
 const Trainings = () => {
   const trainings = useContext(TrainingContext);
-  console.log(trainings);
+  // console.log(trainings);
+
+  const [trainees, setTrainees] = useState([
+    {
+      firstName: "",
+      lastName: "",
+      email: "",
+      role: "",
+    },
+  ]);
+
+  console.log(trainees);
   return (
     <div>
       <div
@@ -50,7 +62,13 @@ const Trainings = () => {
           return <Training trainings={training} />;
         })}
       </section>
-      <form></form>
+      <div>
+        <h1>Member Form</h1>
+        <Form trainees={trainees} setTrainees={setTrainees} />
+        {trainees.map((trainee) => (
+          <Trainee trainee={trainee} />
+        ))}
+      </div>
     </div>
   );
 };
