@@ -1,4 +1,4 @@
-import react, { useState } from "react";
+import React, { useState } from "react";
 
 const Form = (props) => {
   const [form, setForm] = useState({
@@ -27,7 +27,7 @@ const Form = (props) => {
       <input
         type="text"
         name="firstname"
-        placeholder="First name"
+        placeholder="First Name"
         value={form.firstName}
         onChange={changeHandler}
       />
@@ -35,7 +35,7 @@ const Form = (props) => {
       <input
         type="text"
         name="lastname"
-        placeholder="Last name"
+        placeholder="Last Name"
         value={form.lastName}
         onChange={changeHandler}
       />
