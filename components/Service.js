@@ -12,7 +12,6 @@ const Service = (props) => {
         width: "30%",
         height: "20%",
         textAlign: "center",
-        border: "solid blue 1px",
       }}
     >
       <h3 className="title">{title}</h3>

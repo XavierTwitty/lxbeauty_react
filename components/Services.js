@@ -10,7 +10,6 @@ const Services = () => {
     <section
       className="service-container"
       style={{
-        border: "solid blue 2px",
         display: "flex",
         flexWrap: "wrap",
         justifyContent: "space-evenly",

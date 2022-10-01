@@ -9,7 +9,6 @@ const Training = (props) => {
       className="training"
       key={id}
       style={{
-        border: "solid red 1px",
         width: "40%",
         textAlign: "center",
         margin: "2%",

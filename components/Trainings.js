@@ -51,7 +51,6 @@ const Trainings = () => {
       <section
         className="training-container"
         style={{
-          border: "solid blue 2px",
           width: "100%",
           height: "70rem",
           display: "flex",
@@ -68,7 +67,6 @@ const Trainings = () => {
           backgroundColor: "pink",
           width: "100%",
           height: "40rem",
-          border: "solid blue 2px",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
