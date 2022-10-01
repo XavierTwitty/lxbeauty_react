@@ -62,8 +62,27 @@ const Trainings = () => {
           return <Training trainings={training} />;
         })}
       </section>
-      <div>
-        <h1>Member Form</h1>
+      <div
+        className="form-container"
+        style={{
+          backgroundColor: "pink",
+          width: "100%",
+          height: "40rem",
+          border: "solid blue 2px",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+        }}
+      >
+        <h1
+          style={{
+            width: "50%",
+            marginLeft: "25%",
+            marginTop: "2%",
+          }}
+        >
+          For more information, fill out the form below
+        </h1>
         <Form trainees={trainees} setTrainees={setTrainees} />
         {trainees.map((trainee) => (
           <Trainee trainee={trainee} />

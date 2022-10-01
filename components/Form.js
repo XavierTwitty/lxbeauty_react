@@ -16,6 +16,9 @@ const Form = (props) => {
   };
   return (
     <form
+      style={{
+        height: "30rem",
+      }}
       onSubmit={(event) => {
         event.preventDefault();
         props.setTrainees([...props.trainees, form]);
@@ -23,36 +26,69 @@ const Form = (props) => {
         console.log("post submited", props.trainees);
       }}
     >
-      <label htmlFor="firstName"> firstName: </label>
-      <input
-        type="text"
-        name="firstname"
-        placeholder="First Name"
-        value={form.firstName}
-        onChange={changeHandler}
-      />
-      <label htmlFor="lastName"> lastName: </label>
-      <input
-        type="text"
-        name="lastname"
-        placeholder="Last Name"
-        value={form.lastName}
-        onChange={changeHandler}
-      />
-      <label htmlFor="email"> Email: </label>
-      <input
-        type="email"
-        name="email"
-        placeholder="Enter Email Here"
-        value={form.email}
-        onChange={changeHandler}
-      />
-      <label htmlFor="role" />
-      <select name="role" onChange={changeHandler}>
-        <option value="one_day"> One Day Classic Lash </option>
-        <option value="two_day"> Two Day Classic Lash </option>
-      </select>
-      <button type="submit"> Submit </button>
+      <div>
+        <input
+          style={{
+            width: "40%",
+            marginLeft: "30%",
+            marginTop: "3%",
+          }}
+          type="text"
+          name="firstname"
+          placeholder="First Name"
+          value={form.firstName}
+          onChange={changeHandler}
+        />
+      </div>
+      <div>
+        <input
+          style={{
+            width: "40%",
+            marginLeft: "30%",
+          }}
+          type="text"
+          name="lastname"
+          placeholder="Last Name"
+          value={form.lastName}
+          onChange={changeHandler}
+        />
+      </div>
+      <div>
+        <input
+          style={{
+            width: "40%",
+            marginLeft: "30%",
+          }}
+          type="email"
+          name="email"
+          placeholder="Enter Email Here"
+          value={form.email}
+          onChange={changeHandler}
+        />
+      </div>
+      <div>
+        <select
+          style={{
+            width: "40%",
+            marginLeft: "30%",
+          }}
+          name="role"
+          onChange={changeHandler}
+        >
+          <option value="one_day"> One Day Classic Lash </option>
+          <option value="two_day"> Two Day Classic Lash </option>
+        </select>
+      </div>
+      <button
+        style={{
+          width: "5%",
+          marginLeft: "48%",
+        }}
+        type="submit"
+      >
+        {" "}
+        Submit{" "}
+      </button>
     </form>
   );
 };

@@ -18,7 +18,14 @@ const Service = (props) => {
       <h3 className="title">{title}</h3>
       <p className="hours">{hours}</p>
       <p className="price">{price}</p>
-      <button>book now</button>
+      <button
+        style={{
+          backgroundColor: "lightblue",
+          width: "15%",
+        }}
+      >
+        book now
+      </button>
     </div>
   );
 };
