@@ -71,9 +71,13 @@ button:hover {
   margin-bottom: 7%;
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   body {
     border: solid blue 2px;
+  }
+
+  .header-container h1 {
+    font-size: 1px;
   }
 }
 
@@ -81,4 +85,4 @@ button:hover {
   body {
     border: solid red 2px;
   }
-}
+} */

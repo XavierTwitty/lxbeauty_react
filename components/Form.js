@@ -34,7 +34,7 @@ const Form = (props) => {
             marginTop: "3%",
           }}
           type="text"
-          name="firstname"
+          name="firstName"
           placeholder="First Name"
           value={form.firstName}
           onChange={changeHandler}
@@ -47,7 +47,7 @@ const Form = (props) => {
             marginLeft: "30%",
           }}
           type="text"
-          name="lastname"
+          name="lastName"
           placeholder="Last Name"
           value={form.lastName}
           onChange={changeHandler}

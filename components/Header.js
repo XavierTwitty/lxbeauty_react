@@ -20,6 +20,7 @@ function Header() {
         }}
       >
         <h1
+          className="h1"
           style={{
             textAlign: "center",
             fontFamily: "fantasy",
