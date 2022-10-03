@@ -46,6 +46,37 @@ section {
   font-family: fantasy;
 }
 
+/* homepage Styles */
+
+.mySlides {
+  display: flex;
+  justify-content: center;
+}
+
+.mySlides img {
+  padding: 2%;
+}
+
+/* .slideshow-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 2%;
+} */
+
+.home-button {
+  width: 5%;
+  margin-top: 1.4%;
+  margin-left: 48%;
+  background-color: lightblue;
+  border-radius: 20px;
+}
+
+.home-button:hover {
+  background-color: white;
+  color: pink;
+}
 .links {
   width: 20%;
   text-align: center;
@@ -60,11 +91,6 @@ section {
 
 .slideshow-container {
   background-image: url("https://images.unsplash.com/photo-1459664018906-085c36f472af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
-}
-
-.home-button:hover {
-  background-color: white;
-  color: pink;
 }
 
 button:hover {
