@@ -24,6 +24,28 @@ section {
 }
 /* Header Section Styles*/
 
+.header-container {
+  display: flex;
+  width: 100%;
+  height: 20rem;
+  margin-top: 3%;
+}
+
+.titles {
+  width: 50%;
+  text-align: center;
+}
+
+.titles h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 5rem;
+}
+
+.titles h2 {
+  font-family: fantasy;
+}
+
 .links {
   width: 20%;
   text-align: center;
