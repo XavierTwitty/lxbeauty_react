@@ -20,67 +20,21 @@ const Trainings = () => {
   console.log(trainees);
   return (
     <div>
-      <div
-        className="training-header"
-        style={{
-          backgroundColor: "pink",
-          width: "100%",
-          height: "36rem",
-          textAlign: "left",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
+      <div className="training-header">
         <h2> One Day & Two Day</h2>
         <h2> Classic Lash</h2>
         <h2>
           {" "}
-          Extension Classes{" "}
-          <span
-            style={{
-              fontFamily: "cursive",
-              fontSize: "3rem",
-            }}
-          >
-            with Lauren Isenberger
-          </span>
+          Extension Classes <span>with Lauren Isenberger</span>
         </h2>
       </div>
-      <section
-        className="training-container"
-        style={{
-          width: "100%",
-          height: "70rem",
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
+      <section className="training-container">
         {trainings.map((training) => {
           return <Training trainings={training} />;
         })}
       </section>
-      <div
-        className="form-container"
-        style={{
-          backgroundColor: "pink",
-          width: "100%",
-          height: "40rem",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-        }}
-      >
-        <h1
-          style={{
-            width: "50%",
-            marginLeft: "25%",
-            marginTop: "2%",
-          }}
-        >
-          For more information, fill out the form below
-        </h1>
+      <div className="form-container">
+        <h2>For more information, fill out the form below</h2>
         <Form trainees={trainees} setTrainees={setTrainees} />
         {trainees.map((trainee) => (
           <Trainee trainee={trainee} />
