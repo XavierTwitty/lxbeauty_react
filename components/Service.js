@@ -5,26 +5,11 @@ const Service = (props) => {
 
   console.log(props);
   return (
-    <div
-      className="service"
-      key={id}
-      style={{
-        width: "30%",
-        height: "20%",
-        textAlign: "center",
-      }}
-    >
+    <div className="service" key={id}>
       <h3 className="title">{title}</h3>
       <p className="hours">{hours}</p>
       <p className="price">{price}</p>
-      <button
-        style={{
-          backgroundColor: "lightblue",
-          width: "15%",
-        }}
-      >
-        book now
-      </button>
+      <button>book now</button>
     </div>
   );
 };
