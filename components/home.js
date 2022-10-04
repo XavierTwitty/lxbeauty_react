@@ -16,15 +16,7 @@ function home() {
           />
         </div>
       </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          textAlign: "center",
-          padding: "2%",
-        }}
-      >
+      <div className="slideshow-title">
         <h3>Making beauty personal</h3>
         <button className="home-button"> Explore </button>
       </div>
