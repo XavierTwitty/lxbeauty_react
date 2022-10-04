@@ -298,8 +298,39 @@ button:hover {
   margin-top: 2%;
 }
 
+/* footer section */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40rem;
+  font-size: 2.3rem;
+  padding-top: 3%;
+}
+
 .footer h3 {
   margin-bottom: 7%;
+}
+
+.left {
+  width: 40%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.right {
+  width: 40%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+address {
+  margin-bottom: 7%;
+}
+
+.telNumber {
+  display: flex;
 }
 
 /* @media (max-width: 800px) {

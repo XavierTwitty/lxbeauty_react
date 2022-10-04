@@ -8,7 +8,7 @@ const Navigation = () => {
         Home
       </NavLink>
       <NavLink className="links" to="/services">
-        services
+        Services
       </NavLink>
       <NavLink className="links" to="/trainings">
         Training
