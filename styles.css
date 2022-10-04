@@ -463,8 +463,118 @@ address {
 }
 
 @media (max-width: 800px) {
-  body {
-    border: solid blue 2px;
+  .titles h1 {
+    font-size: 3rem;
+  }
+
+  .titles h2 {
+    font-size: 2rem;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .navigation {
+    margin-top: 5%;
+  }
+
+  .service button {
+    width: 40%;
+  }
+
+  .service h3 {
+    font-size: 1.8rem;
+  }
+
+  .footer {
+    font-size: 2rem;
+  }
+
+  .telNumber p {
+    font-size: 1.5rem;
+  }
+
+  .telNumber a {
+    font-size: 1.5rem;
+  }
+
+  .training-header h2 {
+    font-size: 3rem;
+  }
+
+  .training {
+    margin-left: 3.7%;
+    margin-right: 3.7%;
+  }
+
+  .training-title {
+    font-size: 3rem;
+  }
+
+  .training-hours {
+    font-size: 1.8rem;
+  }
+
+  .training-price {
+    font-size: 2.5rem;
+  }
+
+  .training p {
+    font-size: 1.8rem;
+  }
+
+  .about-image-top {
+    display: none;
+  }
+
+  .about-header-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    margin-left: 10%;
+  }
+
+  .links {
+    width: 22%;
+  }
+
+  .about-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-middle-container h2 {
+    font-size: 3.5rem;
+  }
+
+  .about-middle-container p {
+    font-size: 1.5rem;
+  }
+
+  .about-middle-container {
+    width: 50%;
+  }
+
+  .about-img-bottom {
+    border: solid green 2px;
+    width: 100%;
+  }
+
+  .about-img-bottom img {
+    width: 80%;
+    height: 100%;
+    margin-left: 12%;
+  }
+
+  .about-CT h2 {
+    font-size: 3.5rem;
   }
 }
 

@@ -25,6 +25,9 @@ function about() {
         </div>
         <div className="about-bio">
           <div className="about-middle-container">
+            <div className="about-img-bottom">
+              <img src="https://static.wixstatic.com/media/5bff28_08ab8e7b5fb84901a02975443a6a43aa~mv2.jpg/v1/fill/w_490,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG-3067-Facetune-27-03-2022-23-03-05.jpg" />
+            </div>
             <h2>
               {" "}
               Lauren <br /> Isenberger{" "}
@@ -41,10 +44,6 @@ function about() {
               trainings from micro-blading to the new and growing technique
               Ombre/Powder Brows, to advanced lash styling.
             </p>
-          </div>
-
-          <div className="about-img-bottom">
-            <img src="https://static.wixstatic.com/media/5bff28_08ab8e7b5fb84901a02975443a6a43aa~mv2.jpg/v1/fill/w_490,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG-3067-Facetune-27-03-2022-23-03-05.jpg" />
           </div>
         </div>
 
