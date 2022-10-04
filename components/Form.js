@@ -21,9 +21,10 @@ const Form = (props) => {
       }}
       onSubmit={(event) => {
         event.preventDefault();
-        props.setTrainees([...props.trainees, form]);
+        // props.setTrainees([...props.trainees, form]);
         setForm({ firstName: "", lastName: "", email: "", role: "" });
         console.log("post submited", props.trainees);
+        alert("Thank you for submitting");
       }}
     >
       <div>
@@ -79,13 +80,7 @@ const Form = (props) => {
           <option value="two_day"> Two Day Classic Lash </option>
         </select>
       </div>
-      <button
-        style={{
-          width: "5%",
-          marginLeft: "48%",
-        }}
-        type="submit"
-      >
+      <button className="form-button" type="submit">
         {" "}
         Submit{" "}
       </button>

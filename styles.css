@@ -183,6 +183,11 @@ button:hover {
   margin-top: 2%;
 }
 
+.form-button {
+  width: 10%;
+  margin-left: 46%;
+}
+
 .training {
   width: 40%;
   text-align: center;
@@ -389,13 +394,77 @@ address {
   }
 }
 
+@media (max-width: 977px) {
+  body {
+    border: solid violet 2px;
+  }
+
+  /* header section*/
+
+  .titles h1 {
+    font-size: 4rem;
+  }
+
+  .titles h2 {
+    font-size: 2.8rem;
+  }
+
+  .service button {
+    width: 30%;
+  }
+
+  /* training section */
+
+  .training-header span {
+    font-size: 2rem;
+  }
+
+  .training {
+    margin-left: 3.7%;
+    margin-right: 3.7%;
+  }
+
+  .training-header h2 {
+    font-size: 4.5rem;
+  }
+
+  .training-title {
+    font-size: 4rem;
+  }
+
+  .training-hours {
+    font-size: 1.8rem;
+  }
+
+  .training-price {
+    font-size: 2.5rem;
+  }
+
+  .training-title p {
+    font-size: 1.3rem;
+  }
+
+  /* about section*/
+  .about-header-container h2 {
+    font-size: 6.2rem;
+  }
+
+  .about-header-container p {
+    font-size: 1.8rem;
+  }
+
+  .about-middle-container h2 {
+    font-size: 5.2rem;
+  }
+
+  .about-middle-container p {
+    font-size: 1.8rem;
+  }
+}
+
 @media (max-width: 800px) {
   body {
     border: solid blue 2px;
-  }
-
-  .header-container h1 {
-    font-size: 1px;
   }
 }
 
