@@ -3,15 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <div
-      className="navigation"
-      style={{
-        width: "50%",
-        display: "flex",
-        justifyContent: "space-evenly",
-        alignItems: "flex-end",
-      }}
-    >
+    <div className="navigation">
       <NavLink className="links" to="/">
         Home
       </NavLink>
