@@ -7,11 +7,11 @@ const Services = () => {
   const services = useContext(ServiceContext);
   console.log(services);
   return (
-    <div className="service-container">
+    <section className="service-container">
       {services.map((service) => {
         return <Service services={service} />;
       })}
-    </div>
+    </section>
   );
 };
 

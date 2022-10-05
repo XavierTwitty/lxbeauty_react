@@ -3,11 +3,11 @@ import { Route, Switch } from "react-router-dom";
 import data from "../data";
 import trainingData from "../trainingData";
 
-import Home from "./Home";
+import Home from "./home";
 import About from "./About";
 import Trainings from "./Trainings";
 import Services from "../components/Services";
-import Navigation from "./Navigation";
+import Header from "./Header";
 import Footer from "./Footer";
 import { ServiceContext } from "../contexts/ServiceContext";
 import { TrainingContext } from "../contexts/trainingContext";
@@ -15,6 +15,8 @@ import { TrainingContext } from "../contexts/trainingContext";
 // plan:
 // features : social media icons and live IG posts
 //            Our servies filter from https://www.loxuriousbeauty.com/book-online?category=all-services
+//            Animations
+//            Booking component
 
 function App() {
   const [services, setService] = useState(data);
@@ -22,10 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1> LX BEAUTY </h1>
-
-      <Navigation />
-
+      <Header />
       <Switch>
         <Route exact path="/">
           <Home />

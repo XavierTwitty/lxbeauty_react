@@ -1,21 +1,690 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
-    border: 1px solid grey;
-  
-  }
-  
-  /* General Styles*/
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+/* General Styles*/
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #4f4f4f;
+  background-image: url("https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
+}
+
+section {
+  margin: 3% 0;
+}
+/* Header Section Styles*/
+
+.header-container {
+  display: flex;
+  width: 100%;
+  height: 20rem;
+  margin-top: 3%;
+}
+
+.titles {
+  width: 50%;
+  text-align: center;
+}
+
+.titles h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 5rem;
+}
+
+.titles h2 {
+  font-family: fantasy;
+}
+
+/* homepage Styles */
+
+.mySlides {
+  display: flex;
+  justify-content: center;
+}
+
+.mySlides img {
+  padding: 2%;
+}
+
+.home-button {
+  width: 10%;
+  margin-top: 1.4%;
+  margin-left: 48%;
+  background-color: lightblue;
+  padding: 1%;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.home-button:hover {
+  background-color: white;
+  color: pink;
+}
+
+.slideshow-container {
+  background-image: url("https://images.unsplash.com/photo-1459664018906-085c36f472af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+}
+
+.slideshow-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 2%;
+}
+
+.slideshow-title h3 {
+  margin-left: 6.5%;
+}
+
+/* Navigation section*/
+.navigation {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.links {
+  width: 20%;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.links:hover {
+  background-color: white;
+  color: pink;
+}
+
+/* service section */
+
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 60rem;
+}
+
+.service {
+  width: 30%;
+  height: 20%;
+  text-align: center;
+}
+
+button {
+  background-color: lightblue;
+  width: 22%;
+}
+
+button:hover {
+  background-color: white;
+  color: pink;
+}
+
+/* training section */
+
+.training-header {
+  background-color: pink;
+  width: 100%;
+  height: 36rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.training-header h2 {
+  width: 50%;
+}
+
+.training-header span {
+  font-family: cursive;
+  font-size: 3rem;
+}
+.training-header h2 {
+  font-size: 6rem;
+  width: 70%;
+  margin-left: 12%;
+}
+
+.training-container {
+  width: 100%;
+  height: 70rem;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  background-color: pink;
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-container h2 {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
+}
+
+.form-button {
+  width: 10%;
+  margin-left: 46%;
+}
+
+.training {
+  width: 40%;
+  text-align: center;
+  margin: 2%;
+  justify-content: center;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.training-title {
+  font-size: 6rem;
+}
+
+.training-hours {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.training-price {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.training p {
+  font-size: 2rem;
+}
+
+/* about section */
+
+.about-header {
+  display: flex;
+  text-align: center;
+  margin-right: 2%;
+}
+
+.about-image-top {
+  width: 50%;
+  margin-left: 2%;
+}
+
+.about-image-top img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-header-container {
+  width: 50%;
+}
+
+.about-header-container h2 {
+  font-size: 9.8rem;
+  font-family: fantasy;
+}
+
+.about-header-container p {
+  font-size: 2.5rem;
+}
+
+.about-button {
+  width: 40%;
+  padding: 2%;
+  background-color: pink;
+  text-decoration: none;
+}
+
+.about-button:hover {
+  background-color: white;
+}
+
+.about-bio {
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+}
+
+.about-middle-container {
+  width: 40%;
+}
+
+.about-middle-container h2 {
+  font-size: 8rem;
+  text-align: center;
+}
+
+.about-middle-container p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.about-img-bottom {
+  width: 50%;
+  margin-left: 23%;
+}
+
+/* .about-img-bottom img {
+} */
+
+.about-CT {
+  background-color: pink;
+  width: 100%;
+  height: 120vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.about-CT h2 {
+  font-size: 6rem;
+  width: 50%;
+}
+
+.about-CT p {
+  width: 50%;
+  margin-top: 3%;
+}
+
+.quote {
+  margin-top: 5%;
+}
+
+.name {
+  margin-top: 2%;
+}
+
+/* footer section */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40rem;
+  font-size: 2.3rem;
+  padding-top: 3%;
+}
+
+.footer h3 {
+  margin-bottom: 7%;
+}
+
+.left {
+  width: 40%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.right {
+  width: 40%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+address {
+  margin-bottom: 7%;
+}
+
+.telNumber {
+  display: flex;
+}
+
+@media (max-width: 1180px) {
+  /* training section  */
+  .training-header h2 {
+    font-size: 5rem;
   }
-  
-  body {
+
+  .training-title {
+    font-size: 5rem;
+  }
+
+  .training-hours {
+    font-size: 2rem;
+  }
+
+  .training-price {
+    font-size: 3rem;
+  }
+
+  .training-title p {
+    font-size: 1.7rem;
+  }
+  /* about section*/
+
+  .about-header-container h2 {
+    font-size: 7.2rem;
+  }
+
+  .about-header-container p {
     font-size: 1.8rem;
-    line-height: 1.5;
-    color: #4f4f4f;
-    background-image: url("https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
   }
+
+  .about-middle-container h2 {
+    font-size: 7rem;
+  }
+
+  .about-middle-container p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 977px) {
+  /* header section*/
+
+  .titles h1 {
+    font-size: 4rem;
+  }
+
+  .titles h2 {
+    font-size: 2.8rem;
+  }
+
+  .service button {
+    width: 30%;
+  }
+
+  /* training section */
+
+  .training-header span {
+    font-size: 2rem;
+  }
+
+  .training {
+    margin-left: 3.7%;
+    margin-right: 3.7%;
+  }
+
+  .training-header h2 {
+    font-size: 4.5rem;
+  }
+
+  .training-title {
+    font-size: 4rem;
+  }
+
+  .training-hours {
+    font-size: 1.8rem;
+  }
+
+  .training-price {
+    font-size: 2.5rem;
+  }
+
+  .training-title p {
+    font-size: 1.3rem;
+  }
+
+  /* about section*/
+  .about-header-container h2 {
+    font-size: 6.2rem;
+  }
+
+  .about-header-container p {
+    font-size: 1.8rem;
+  }
+
+  .about-middle-container h2 {
+    font-size: 5.2rem;
+  }
+
+  .about-middle-container p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .titles h1 {
+    font-size: 3rem;
+  }
+
+  .titles h2 {
+    font-size: 2rem;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .navigation {
+    margin-top: 5%;
+  }
+
+  .service button {
+    width: 40%;
+  }
+
+  .service h3 {
+    font-size: 1.8rem;
+  }
+
+  .footer {
+    font-size: 2rem;
+  }
+
+  .telNumber p {
+    font-size: 1.5rem;
+  }
+
+  .telNumber a {
+    font-size: 1.5rem;
+  }
+
+  .training-header h2 {
+    font-size: 3rem;
+  }
+
+  .training {
+    margin-left: 3.7%;
+    margin-right: 3.7%;
+  }
+
+  .training-title {
+    font-size: 3rem;
+  }
+
+  .training-hours {
+    font-size: 1.8rem;
+  }
+
+  .training-price {
+    font-size: 2.5rem;
+  }
+
+  .training p {
+    font-size: 1.8rem;
+  }
+
+  .about-image-top {
+    display: none;
+  }
+
+  .about-header-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    margin-left: 10%;
+  }
+
+  .links {
+    width: 22%;
+  }
+
+  .about-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-middle-container h2 {
+    font-size: 3.5rem;
+  }
+
+  .about-middle-container p {
+    font-size: 1.5rem;
+  }
+
+  .about-middle-container {
+    width: 50%;
+  }
+
+  .about-img-bottom {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .about-img-bottom img {
+    width: 80%;
+    height: 100%;
+    margin-left: 12%;
+  }
+
+  .about-CT h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-button {
+    width: 20%;
+    margin-left: 42%;
+  }
+
+  .titles h1 {
+    font-size: 2.5rem;
+  }
+
+  .titles h2 {
+    font-size: 1.8rem;
+  }
+
+  .navigation {
+    width: 75%;
+  }
+
+  .links {
+    width: 30%;
+    margin: 1%;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  .left {
+    width: 80%;
+  }
+
+  .right {
+    width: 80%;
+  }
+
+  .service-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .service {
+    width: 60%;
+    height: 50%;
+    margin: 2%;
+    padding: 2%;
+  }
+
+  .service button {
+    width: 40%;
+  }
+
+  .training-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .training-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .training {
+    width: 95%;
+    margin-left: 0.5%;
+  }
+
+  .training-title {
+    font-size: 2rem;
+  }
+
+  .training p {
+    font-size: 1.5rem;
+  }
+
+  .form-container h2 {
+    font-size: 2rem;
+  }
+
+  .about-header-container h2 {
+    font-size: 4rem;
+  }
+
+  .about-header-container p {
+    font-size: 1.4rem;
+  }
+
+  .about-bio h2 {
+    font-size: 3rem;
+  }
+
+  .about-bio p {
+    font-size: 1.8rem;
+  }
+
+  .about-middle-container {
+    width: 70%;
+  }
+
+  .about-img-bottom img {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .about-CT h2 {
+    width: 100%;
+    font-size: 3rem;
+  }
+
+  .about-CT p {
+    font-size: 1.6rem;
+  }
+}
