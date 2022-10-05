@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { TrainingContext } from "../contexts/trainingContext";
+import { TrainingContext } from "../contexts/TrainingContext";
 import Form from "./Form";
 import Trainee from "./Trainee";
 import Training from "./Training";
