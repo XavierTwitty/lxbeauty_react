@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Route, Switch } from "react-router-dom";
 import data from "../data";
 import trainingData from "../trainingData";
-
+import About from "./About";
+import Home from "./Home";
 import Trainings from "./Trainings";
 import Services from "../components/Services";
 import Header from "./Header";
