@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 1px solid grey;
 }
 
 /* General Styles*/
@@ -354,9 +353,6 @@ address {
 }
 
 @media (max-width: 1180px) {
-  body {
-    border: solid violet 2px;
-  }
   /* training section  */
   .training-header h2 {
     font-size: 5rem;
@@ -397,10 +393,6 @@ address {
 }
 
 @media (max-width: 977px) {
-  body {
-    border: solid violet 2px;
-  }
-
   /* header section*/
 
   .titles h1 {
@@ -465,10 +457,6 @@ address {
 }
 
 @media (max-width: 800px) {
-  body {
-    border: solid blue 2px;
-  }
-
   .titles h1 {
     font-size: 3rem;
   }
@@ -585,10 +573,6 @@ address {
 }
 
 @media (max-width: 600px) {
-  body {
-    border: solid red 2px;
-  }
-
   .home-button {
     width: 20%;
     margin-left: 42%;
@@ -627,7 +611,6 @@ address {
   }
 
   .service-container {
-    border: solid red 2px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
