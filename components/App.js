@@ -8,8 +8,6 @@ import Trainings from "./Trainings";
 import Services from "../components/Services";
 import Header from "./Header";
 import Footer from "./Footer";
-import { ServiceContext } from "../contexts/ServiceContext";
-import { TrainingContext } from "../contexts/trainingContext";
 
 // plan:
 // features : social media icons and live IG posts
