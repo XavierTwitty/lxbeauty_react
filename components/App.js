@@ -3,8 +3,6 @@ import { Route, Switch } from "react-router-dom";
 import data from "../data";
 import trainingData from "../trainingData";
 
-import Home from "./home";
-import About from "./About";
 import Trainings from "./Trainings";
 import Services from "../components/Services";
 import Header from "./Header";
