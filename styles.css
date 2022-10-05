@@ -629,11 +629,20 @@ address {
   .service-container {
     border: solid red 2px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .service {
+    width: 60%;
+    height: 50%;
+    margin: 2%;
+    padding: 2%;
   }
 
   .service button {
-    width: 50%;
+    width: 40%;
   }
 
   .training-header h2 {
