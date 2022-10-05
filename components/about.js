@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function about() {
+function About() {
   return (
     <div>
       <section className="about">
@@ -82,4 +82,4 @@ function about() {
   );
 }
 
-export default about;
+export default About;
