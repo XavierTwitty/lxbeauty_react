@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function about() {
   return (
@@ -20,7 +21,10 @@ function about() {
               a fresh start - give us a call today and find out more about our
               services and special offers!
             </p>
-            <button> BOOK NOW </button>
+            <Link className="about-button" to="/services">
+              {" "}
+              BOOK NOW{" "}
+            </Link>
           </div>
         </div>
         <div className="about-bio">

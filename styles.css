@@ -64,6 +64,7 @@ section {
   background-color: lightblue;
   padding: 1%;
   border-radius: 20px;
+  text-decoration: none;
 }
 
 .home-button:hover {
@@ -246,13 +247,14 @@ button:hover {
   font-size: 2.5rem;
 }
 
-.about-header-container button {
-  width: 30%;
+.about-button {
+  width: 40%;
   padding: 2%;
   background-color: pink;
+  text-decoration: none;
 }
 
-.about-header-container button:hover {
+.about-button:hover {
   background-color: white;
 }
 
@@ -278,11 +280,11 @@ button:hover {
 
 .about-img-bottom {
   width: 50%;
+  margin-left: 23%;
 }
 
-.about-img-bottom img {
-  margin-left: 8%;
-}
+/* .about-img-bottom img {
+} */
 
 .about-CT {
   background-color: pink;
@@ -463,6 +465,10 @@ address {
 }
 
 @media (max-width: 800px) {
+  body {
+    border: solid blue 2px;
+  }
+
   .titles h1 {
     font-size: 3rem;
   }
@@ -563,8 +569,8 @@ address {
   }
 
   .about-img-bottom {
-    border: solid green 2px;
-    width: 100%;
+    width: 60%;
+    margin-left: 20%;
   }
 
   .about-img-bottom img {
@@ -581,5 +587,112 @@ address {
 @media (max-width: 600px) {
   body {
     border: solid red 2px;
+  }
+
+  .home-button {
+    width: 20%;
+    margin-left: 42%;
+  }
+
+  .titles h1 {
+    font-size: 2.5rem;
+  }
+
+  .titles h2 {
+    font-size: 1.8rem;
+  }
+
+  .navigation {
+    width: 75%;
+  }
+
+  .links {
+    width: 30%;
+    margin: 1%;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  .left {
+    width: 80%;
+  }
+
+  .right {
+    width: 80%;
+  }
+
+  .service-container {
+    border: solid red 2px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .service button {
+    width: 50%;
+  }
+
+  .training-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .training-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .training {
+    width: 95%;
+    margin-left: 0.5%;
+  }
+
+  .training-title {
+    font-size: 2rem;
+  }
+
+  .training p {
+    font-size: 1.5rem;
+  }
+
+  .form-container h2 {
+    font-size: 2rem;
+  }
+
+  .about-header-container h2 {
+    font-size: 4rem;
+  }
+
+  .about-header-container p {
+    font-size: 1.4rem;
+  }
+
+  .about-bio h2 {
+    font-size: 3rem;
+  }
+
+  .about-bio p {
+    font-size: 1.8rem;
+  }
+
+  .about-middle-container {
+    width: 70%;
+  }
+
+  .about-img-bottom img {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .about-CT h2 {
+    width: 100%;
+    font-size: 3rem;
+  }
+
+  .about-CT p {
+    font-size: 1.6rem;
   }
 }
